@@ -87,7 +87,7 @@ console.log(new_array)
 
 
 
-{
+[{
     "batchcomplete": "",
     "continue": {
         "sroffset": 10,
