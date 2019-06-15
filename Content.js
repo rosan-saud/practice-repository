@@ -7,7 +7,8 @@ let content = {
             "git add -A", 
             "'git commit -am 'Second Commit'",
             "git push origin",
-            "git config --global user.name 'Your Name'
+            'git config --global user.name "Your Name',
+            'git config --global user.email "you@example.com"'
         ]},
         "Package.json",
         {"Install Node Modules and Use them," : [
