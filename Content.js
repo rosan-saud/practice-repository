@@ -10,9 +10,13 @@ let content = {
             "git remote add origin https://github.com/santo-cold/NodePractice.git",
             "git add -A", 
             "'git commit -am 'Second Commit'",
-            "git push origin"
+            "git push origin",
         ]},
         "Package.json",
-        "Install Node Modules and Use them,"
+        {"Install Node Modules and Use them," : [
+            "express",
+            "body-parser",
+            "nodemon"
+        ]}
     ]
 }
