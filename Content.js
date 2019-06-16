@@ -13,7 +13,7 @@ let content = {
             "'git commit -am 'Second Commit'",
             "git push origin",
         ]},
-        "Package.json, a file to manage your metadata of your project and commands to build, start, serve etc.",
+        "Package.json, a file to manage metadata of your project and commands to build, start, serve etc.",
 
 
         {"Install Node Modules and Use them," : [
