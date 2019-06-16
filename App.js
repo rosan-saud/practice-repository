@@ -1,5 +1,5 @@
-var express = require("express"); //Import Express
-var all_movies = require("./FetchMovies.js")
+import express from "express"
+import all_movies from './FetchMovies';
 var app = express(); //Initialize our App with Express
 var port = 3000;
 
