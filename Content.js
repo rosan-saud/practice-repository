@@ -7,13 +7,13 @@ let content = {
             "git config --global user.name 'FIRST_NAME LAST_NAME'",
             "git config --global user.email 'MY_NAME@example.com'",
             "git clone https://github.com/santo-cold/NodePractice.git",
-            "git init", 
+            "git init",
             "git remote add origin https://github.com/santo-cold/NodePractice.git",
             "git add -A", 
-            "'git commit -am 'Second Commit'",
-            "git push origin",
+            "git commit -am 'nodemon implemented",
+            "git push origin master",
         ]},
-        "Package.json, a file to manage your metadata of your project and commands to build, start, serve etc.",
+        "Package.json, a file to manage your metadata of your project and commands to build, start, serve etc., dependencies, dev-dependencies",
 
 
         {"Install Node Modules and Use them," : [

@@ -8,14 +8,14 @@ app.use(express.json());
 
 console.log(all_movies)
 
-// app.post("/profile", function(req, res) {
-// if(req.body.name === 'santo'){
-//     res.send("You are a valid user")
-// } else{
-//     return res.status(404).send({"message":"You are not authorized"});
-// }
-//  res.send("Ready")
-// });
+app.post("/profile", function(req, res) {
+if(req.body.name === 'santo'){
+    res.status(202).send("You are a valid user")
+} else{
+    return res.status(404).send({"message":"You are not authorized"});
+}
+ res.send("Ready")
+});
 
 // app.get("/", function(request, response) {
     
