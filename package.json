@@ -1,14 +1,14 @@
 {
-    "name": "NodePractice",
+    "name": "practice",
     "version": "1.0.0",
-    "description": "This is a cool project",
-    "main": "App.js",
+    "description": "it feels great learning  js",
+    "main": "assignment.js",
     "scripts": {
         "start": "nodemon --exec babel-node App.js",
         "build": "node run build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Santo",
+    "author": "rosan",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1",
