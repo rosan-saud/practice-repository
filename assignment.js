@@ -17,4 +17,5 @@ app.get('/', function (request, response) {
       });
        app.listen(port, function () {
         console.log('i am all dizzy')
+        console .log("the first commit in my repo was cool");
     })
